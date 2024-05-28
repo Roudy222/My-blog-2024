@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Partido</title>
+        <link rel="stylesheet" type="text/css" href="./lib/style1.css">
+        <script src="./script/game.js " defer></script>
+    </head>
+
+    <body>
+        <ul>
+        <a href="./index.html"><span >Back</span></a>    
+    </ul>
+    
+
+        <div id="game-area">
+            <h1>¡Juega el juego de combinar!</h1>
+            <div class="perspective-wrapper">
+            <div id="card-area" class="game-panel">
+                
+                    <div class="card" onclick="controller.selectCard(this)">
+                        1    
+                    </div>
+                    
+                    <div class="card" onclick="controller.selectCard(this)">
+                        1
+                    </div>
+                    
+                    <div class="card" onclick="controller.selectCard(this)">
+                        2
+                    </div>
+                    
+                    <div class="card" onclick="controller.selectCard(this)">
+                        2
+                    </div>
+                    
+                    <div class="card" onclick="controller.selectCard(this)">
+                        3    
+                    </div>
+                    
+                    <div class="card" onclick="controller.selectCard(this)">
+                        3
+                    </div>
+                    
+                    <div class="card" onclick="controller.selectCard(this)">
+                        4
+                    </div>
+                    
+                    <div class="card" onclick="controller.selectCard(this)">
+                        4
+                    </div>
+                    
+                    <div class="card" onclick="controller.selectCard(this)">
+                        5
+                    </div>
+                    
+                    <div class="card" onclick="controller.selectCard(this)">
+                        5
+                    </div>
+                    
+                    <div class="card" onclick="controller.selectCard(this)">
+                        6
+                    </div>
+                    
+                    <div class="card" onclick="controller.selectCard(this)">
+                        6
+                    </div>
+                </div>
+            </div>
+            <div class="col-2">
+                
+                <div id="score-area" class="game-panel">
+                    0
+                </div>
+                <div id="accuracy-area" class="game-panel">
+                    100%
+                </div>
+                
+            </div>
+            
+            <div id="message-area" class="default">
+                
+            </div>
+            <div id="button-area">
+                <button id="continue" class="hidden" onclick="controller.nextRound()">Continue?</button>
+            </div>
+        </div>
+    </body>
+</html>

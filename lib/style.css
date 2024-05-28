@@ -1,0 +1,72 @@
+/* Blackground */
+        .jumbotron{
+            padding-top: 7rem;
+            background-color: #b0cf26;
+        }
+
+        #projects{
+            background-color: #b0cf26;
+        }
+
+        footer{
+            background-color: #b0cf26;
+            padding-bottom: 2rem;
+        }
+
+        section{
+            padding-top: 7rem;
+        }
+        
+        /* justificamos el texto del parrafo */
+        p {
+          overflow:hidden;
+          margin:50px auto;
+          /* display:block; */
+
+        } 
+
+        /* calculadora */
+      .wrapper {
+        margin: 5% auto 0 auto;
+        background: #000000;
+        border-radius: 10px;
+        width: 70%;
+        font-family: Poppins;
+      }
+
+      .maintext {
+        padding-top: 5px;
+        padding-right: 30px;
+      }
+
+      .maintext p {
+        font-size: 3.5rem;
+        text-align: end;
+        color: #ffffff;
+        word-wrap: break-word;
+        word-break: break-all;
+      }
+
+      button {
+        font-size: 1.5rem;
+        height: 65px;
+        width: 65px;
+        width: 100%;
+        border-radius: 5px;
+      }
+
+      button:hover {
+        filter: brightness(110%);
+      }
+
+      .tombol {
+        background-color: #ffffff;
+        padding: 25px;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-row-gap: 20px;
+        grid-column-gap: 25px;
+        border-style: solid;
+        border-radius: 0 0 10px 10px;
+      }
+    
